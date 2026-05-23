@@ -13,15 +13,16 @@
     "generate-types": "wrangler types"
   },
   "dependencies": {
-    "@astrojs/cloudflare": "^13.5.4",
-    "astro": "6.3.6",
-    "wrangler": "4.94.0"
+    "@astrojs/cloudflare": "13.5.4",
+    "astro": "6.3.6"
   },
   "devDependencies": {
+    "@cloudflare/workers-types": "^4.20260522.1",
     "@tailwindcss/vite": "4.3.0",
     "@types/node": "25.9.1",
     "tailwindcss": "4.3.0",
-    "typescript": "6.0.3"
+    "typescript": "6.0.3",
+    "wrangler": "^4.94.0"
   },
   "overrides": {
     "vite": "^7"
