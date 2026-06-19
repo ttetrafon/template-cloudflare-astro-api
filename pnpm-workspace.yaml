@@ -1,5 +1,5 @@
 # https://pnpm.io/settings
-minimumReleaseAge: 720
+minimumReleaseAge: 5760
 trustPolicy: no-downgrade
 blockExoticSubdeps: true
 allowBuilds:
