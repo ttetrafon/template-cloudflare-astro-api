@@ -1,14 +1,14 @@
 {
   "name": "astro-practice",
   "type": "module",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "node": ">=22",
     "pnpm": ">=11"
   },
   "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
+    "dev": "astro dev --no-cache",
+    "build": "astro build --no-cache",
     "preview": "astro preview",
     "astro": "astro",
     "generate-types": "wrangler types"

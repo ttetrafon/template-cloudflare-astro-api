@@ -10,4 +10,9 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
   adapter: cloudflare(),
+  image: {
+    // See https://docs.astro.build/en/guides/images/#image-options & https://docs.astro.build/en/reference/configuration-reference/#image-options for more information.
+    layout: "constrained",
+    responsiveStyles: true,
+  }
 });
